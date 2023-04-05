@@ -20,3 +20,5 @@ store.save
 
 store = Store.create(name: "Gastown", annual_revenue: 1900000, mens_apparel: true, womens_apparel: false)
 
+puts "The number of records of Store: "
+puts Store.count
